@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration: none
+}
+ul{padding: 0; margin: 0;}
+header{
+	width: 100%;
+}
+.sticky{position: fixed;width: 100%;background-color: white;top: 0;left: 0;}
+/**********************
+*top header css
+***********************/
+.top-header{background-color: #eaefff;padding: 14px 0;}
+.top-left span{font-size: 14px;color: #fe5c24;margin-right: 14px;}
+.top-left a{font-size: 14px;color: #0c3e72;margin:15px;}
+
+.top-right{text-align: right;}
+.top-right ul li{list-style: none;display: inline-block;}
+.top-right a{font-size: 14px;color:#0c3e72;margin-left: 16px; }
+.top-right span{font-size: 14px;color: #0c3e72;margin-left: 32px;}
+.top-right span i{color: #fe5c24;font-size: 14px;margin-right: 5px;}
+.top-right ul li a:hover{color: #fe5c24;}
+
+/********************
+main menu css
+*********************/
+.nav-link{font-size: 16px;color: #0c3e72 !important;padding: 38px 22px;}
+.active{color:#fe5c24 !important;}
+.nav-item{margin: 0 16px;}
+.book-now{font-size: 16px;color: #fff;background-color: #fe5c24;padding: 13px 30px;font-weight: 500;border: none;}
+.book-now:hover{color: white;background-color: #2493e0;}
+/********************
+banner section css
+*********************/
+#banner{width: 100%;background-image: url(../img/banner.png);background-repeat: no-repeat;background-size: cover;background-position: center;height: 100vh;}
+#banner .banner-content{text-align: center;height: 100vh; display: flex;align-items: center;justify-content: center;}
+#banner .banner-content h1{font-size: 120px;color: #fff;font-weight: 700;margin-bottom: 22px; }
+#banner .banner-content p{font-size: 24px;color: #fff;}
+#banner .banner-content .discover-btn{color: #fff;background-color: #2493e0;padding: 23px 79px; display: inline-block;margin-top: 60px;}
+#banner .banner-content .discover-btn:hover{color: white;background-color:#fe5c24; }
+
+/********************
+search section css
+*********************/
+#search{width: 100%}
+#search .search-box{background-color: white;margin-top: -100px;}
+#search .search-box .tab-options{padding: 0px 40px;}
+#search .search-box .tab-options ul li{padding: 40px 0; position: relative; list-style: none;display: inline-block;margin-right: 32px;position: relative;}
+#search .search-box .tab-options ul li .line{width: 165%;height: 3px; color:#2493e0;background-color: #2493e0;display: block;position: absolute;bottom: 0;left: -17px;}
+#search .search-box .tab-options ul li:hover{cursor: pointer;}
+#search .search-box .tab-content{padding: 40px;box-shadow: 0 10px 40px 0 rgb(221 221 221 / 30%);}
+#search .search-box .tab-content form{display: flex;justify-content: space-evenly;}
+#search .search-box .tab-content .form-div{flex-basis: 20%;position: relative;color:#2493e0;}
+#search .search-box .tab-content .form-div i{position: absolute;right: 10px;top: 50%;transform: translateY(-50%);}
+#search .search-box .tab-content .form-div .form-field{padding: 16px;width: 100%;color:#2493e0;}
